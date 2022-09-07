@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+circle {
+    fill: steelblue;
+}
+
+.line-path {
+    fill: none;
+    opacity: 0.35;
+    stroke: blue;
+    stroke-width: 1;
+    stroke-linejoin: round;
+}
+
+.line-path2 {
+    fill: none;
+    opacity: 0.5;
+    stroke: red;
+    stroke-width: 1;
+    stroke-linejoin: round;
+}
+
+text {
+    font-family: sans-serif;
+}
+
+.axis-label {
+    font-size: 1.5em;
+    fill: #8E8883;
+}
+
+.title {
+    font-size: 2em;
+    fill: #635F5D;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+g {
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline;
+    margin: 0 auto;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.graphSelect {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.table {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

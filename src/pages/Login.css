@@ -1,0 +1,29 @@
+.login {
+    display: block;
+    margin: 50px auto;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+}
+
+.register {
+    display: block;
+    margin: auto;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+}
+
+.username {
+    font-size:large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textonly{
+    font-style:italic;
+}

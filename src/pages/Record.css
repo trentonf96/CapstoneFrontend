@@ -1,0 +1,64 @@
+.content {
+    margin: 150px;
+}
+
+.buttons {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.start {
+    height: 108px;
+    margin-top: 60px;
+}
+
+.stop {
+    display: none;
+    height: 108px;
+    margin-top: 60px;
+}
+
+.icon {
+    font-size: 80px;
+}
+
+ion-modal#modal {
+    --height: 25%;
+    --width: 85%;
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+ion-modal#modal::part(backdrop) {
+    background: rgba(209, 213, 219);
+    opacity: 1;
+}
+
+ion-modal#modal ion-toolbar {
+    --background: #3880ff;
+    --color: white;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain {
+    height: 100%;
+    position: relative;
+}
+
+.rec {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}

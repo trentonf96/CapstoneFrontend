@@ -1,0 +1,9 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Acoustic Measure",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"android": {
+		"allowMixedContent": true
+	}
+}
